@@ -2,6 +2,4 @@
 
 Changed file structure to a Feature-Folder Architecture
 
-/Features
-  /Products
-    etc
+/Features/Products
