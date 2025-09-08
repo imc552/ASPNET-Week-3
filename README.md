@@ -1,9 +1,11 @@
 # ASPNET-Week-3
 
-Changed file structure to a Feature-Folder structure (/Features/Products)
+Changed file structure to a Feature-Folder structure (/Features/Products). I wanted to move the Products View into the Features folder but ran into errors with the model that I have no idea on how to fix.
 
 Moved DuplicateService to the Products folder because it is closely related to the product controller
 
 Added attribute routing to both the Home and Products Controller. Inside the app builder, I changed the MapControllerRoute() method to the MapControllers() method.
 
-I wanted to move the Products View into the Features folder but ran into errors with the model that I have no idea on how to fix.
+I assumed that verify route patterns just means using the LogInformation method to write to the console that the page was found.
+
+
