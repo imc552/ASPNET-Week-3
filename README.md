@@ -5,13 +5,13 @@ Changed file structure to a Feature-Folder structure (/Features/Products). I wan
 Moved DuplicateService to the Products folder because it is closely related to the product controller
 
 Added attribute routing to both the Home and Products Controller. 
--Home Controller: Index Action
-  -[Route("Home/Index")]
-  -[Route("Home/Index/{id?}")]
+* Home Controller: Index Action
+  * [Route("Home/Index")]
+  * [Route("Home/Index/{id?}")]
 
--Prodcucts Controller: Details Action
-  -[Route("Products/Details")]
-  -[Route("Products/Details/{id?}")]
+* Prodcucts Controller: Details Action
+  * [Route("Products/Details")]
+  * [Route("Products/Details/{id?}")]
 
 Inside the app builder, I changed the MapControllerRoute() method to the MapControllers() method.
 
