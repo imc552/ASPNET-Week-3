@@ -7,12 +7,12 @@ Moved DuplicateService to the Products folder because it is closely related to t
 Added attribute routing to both the Home and Products Controller. 
 Home Controller: Index Action
 
-[Route("Home/Index")]
-[Route("Home/Index/{id?}")]
+-[Route("Home/Index")]
+-[Route("Home/Index/{id?}")]
 
 Prodcucts Controller: Details Action
-[Route("Products/Details")]
-[Route("Products/Details/{id?}")]
+-[Route("Products/Details")]
+-[Route("Products/Details/{id?}")]
 
 Inside the app builder, I changed the MapControllerRoute() method to the MapControllers() method.
 
